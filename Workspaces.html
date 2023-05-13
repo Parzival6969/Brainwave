@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Notes.css">
+        <title>title</title>
+        
+    </head>
+    <body>
+      
+
+
+
+
+      <div class="form">
+     
+        <div class="form-ic">
+            
+        <div class="textarea">
+            <input autocomplete="off" class="nameheader" maxlength="11" id="nametext" placeholder="Title"></input>
+            <textarea id="name" placeholder="Description"></textarea>
+            <div class="btn-container">
+                <a class="upperBtn">ABC</a><a class="lowerBtn">abc</a>
+            </div>
+        </div>
+          
+       <div class="flex">
+        <button type="submit" id="submit" value="Add">Add</button> 
+       </div>
+        <div class="msg"> Please enter all fields<div class="close">Close</div></div>
+        </div>
+      
+            
+           
+    </div>
+        
+    <div class="alertbox alerts">
+        <div class="messages">Are you sure?</div>
+        <div class="okaycancel-container">
+            <div class="okay">Yes, clear</div>
+        <div class="cancel">Cancel</div>
+        </div>
+    </div>  
+ 
+   
+    <div class=" items-selector-container">
+        <div class="items-selector">
+<a class="all active"><i style="margin-right:10px" class="fa-solid fa-border-all"></i> All</a><a class="pending"><i style="margin-right:10px" class="fa-solid fa-list-ul"></i>Pending</a><a class="completed"><i style="margin-right:10px" class="fa-solid fa-list-check"></i>Completed</a>  
+            <div class="border-bot"></div> 
+            <div class="button"><button>Clear all</button></div>   
+                  
+        </div>
+       
+    </div>
+
+    <div class="list-container">
+        <ul class="dpflex" id="listall">
+             <div class="text texts">
+                You don't have any note here
+            </div>
+          </ul>
+          <ul class="dpnone" id="list-p">
+            <div class="textp texts">You don't have any pending note here</div>
+        </ul>
+        <ul class="dpnone" id="list-c">
+            <div class="textc texts">You don't have any completed note here</div>
+        </ul>
+    </div>
+    
+       
+    
+    <script src="Notes.js"></script>
+    </body>
+    </html>
